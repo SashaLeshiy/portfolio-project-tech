@@ -31,6 +31,7 @@ module.exports = {
   plugins: [
     'react',
     '@typescript-eslint',
+    'i18next',
   ],
   rules: {
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.tsx'] }],
@@ -45,6 +46,7 @@ module.exports = {
     'no-shadow': 'off',
     'no-unused-vars': 'warn',
     'no-underscore-dangle': 'off',
+    'i18next/no-literal-string': ['error', { markupOnly: true }],
   },
   globals: {
     __IS_DEV__: true,
