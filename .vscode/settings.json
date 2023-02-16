@@ -3,5 +3,6 @@
     "public/locales",
     "src/shared/config/i18n"
   ],
-  "i18n-ally.keystyle": "flat"
+  "i18n-ally.keystyle": "flat",
+  "i18next.i18nPaths": "/Users/sashaleshiy/portfolio-project/public/locales,/Users/sashaleshiy/portfolio-project/src/shared/config/i18n"
 }
