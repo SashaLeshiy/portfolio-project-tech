@@ -8,19 +8,19 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
   ],
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      // extends: [
-      //   'plugin:@typescript-eslint/recommended',
-      //   'plugin:@typescript-eslint/recommended-requiring-type-checking'
-      // ],
-      parserOptions: {
-        tsconfigRootDir: __dirname,
-        project: 'tsconfig.json',
-      },
-    },
-  ],
+  // overrides: [
+  //   {
+  //     files: ['*.ts', '*.tsx'],
+  //     extends: [
+  //       'plugin:@typescript-eslint/recommended',
+  //       'plugin:@typescript-eslint/recommended-requiring-type-checking',
+  //     ],
+  //     parserOptions: {
+  //       tsconfigRootDir: __dirname,
+  //       project: './tsconfig.json',
+  //     },
+  //   },
+  // ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -50,7 +50,12 @@ module.exports = {
     'no-shadow': 'off',
     'no-unused-vars': 'warn',
     'no-underscore-dangle': 'off',
-    'i18next/no-literal-string': ['error', { markupOnly: true }],
+    'i18next/no-literal-string': [
+      'error',
+      {
+        markupOnly: true,
+        ignoreAttribute: ['data-testId', 'to'],
+      }],
     'max-len': ['error', {
       ignoreComments: true,
       code: 120,
@@ -59,4 +64,12 @@ module.exports = {
   globals: {
     __IS_DEV__: true,
   },
+  overrides: [
+    {
+      files: ['**/src/**/*.test.{ts,tsx}'],
+      rules: {
+        'i18next/no-literal-string': 'off',
+      },
+    },
+  ],
 };
