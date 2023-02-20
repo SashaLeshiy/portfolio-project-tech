@@ -11,5 +11,6 @@
 * Jest
 * Storybook
 * Loki
+* Setup CI on github actions
 
 work in progress...
