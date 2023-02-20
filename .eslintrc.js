@@ -42,7 +42,6 @@ module.exports = {
     'react/jsx-props-no-spreading': 'warn',
     'import/prefer-default-export': 'off',
     'import/no-unresolved': 'off',
-    'import/no-absolute-path': 'off',
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'react/function-component-definition': 'off',
