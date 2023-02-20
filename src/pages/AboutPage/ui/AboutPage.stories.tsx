@@ -1,4 +1,3 @@
-import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 import AboutPage from './AboutPage';
@@ -13,7 +12,7 @@ export default {
   },
 } as ComponentMeta<typeof AboutPage>;
 
-const Template: ComponentStory<typeof AboutPage> = (args) => <AboutPage {...args} />;
+const Template: ComponentStory<typeof AboutPage> = (args) => <AboutPage {...(args as Record<string, unknown>)} />;
 
 export const Default = Template.bind({});
 Default.args = {
