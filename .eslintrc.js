@@ -60,6 +60,7 @@ module.exports = {
       ignoreComments: true,
       code: 120,
     }],
+    'linebreak-style': 0,
   },
   globals: {
     __IS_DEV__: true,
