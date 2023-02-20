@@ -1,4 +1,4 @@
-# Application of My Skills
+# Presenting my skills
 
 * Webpack
 * TS
@@ -12,4 +12,4 @@
 * Storybook
 * Loki
 
-to be continued...
+work in progress...
