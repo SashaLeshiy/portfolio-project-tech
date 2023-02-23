@@ -14,6 +14,7 @@ export default ({ config }: {config: webpack.Configuration}) => {
   config.resolve?.extensions?.push('.ts', '.tsx');
 
   if (config.module?.rules) {
+    // не обрабатываем svg правилами сторибука, так как обработали вебпаком в компонент
     // eslint-disable-next-line no-param-reassign
     config.module.rules = config.module?.rules?.map((rule: webpack.RuleSetRule | '...') => {
       if (rule !== '...' && /svg/.test(rule.test as string)) {

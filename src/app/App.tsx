@@ -1,5 +1,4 @@
 import { Suspense } from 'react';
-import './styles/index.scss';
 import { classNames } from 'shared/lib/classNames/ClassNames';
 import { NavBar } from 'widgets/nav-bar';
 import { Sidebar } from 'widgets/Sidebar';
