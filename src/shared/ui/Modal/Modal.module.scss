@@ -5,6 +5,7 @@
   bottom: 0;
   left: 0;
   z-index: -1;
+  color: var(--primary-color);
   opacity: 0;
   pointer-events: none;
 }
@@ -34,12 +35,12 @@
   }
 }
 
-.Modal.dark {
-  .content {
-    color: var(--inverted-primary-color);
-    background-color: var(--inverted-bg-color);
-  }
-}
+// .Modal.dark {
+//   .content {
+//     color: var(--inverted-primary-color);
+//     background-color: var(--inverted-bg-color);
+//   }
+// }
 
 .overlay {
   display: flex;
