@@ -1,4 +1,5 @@
 # Presenting my skills
+# Install & Config:
 
 * Webpack
 * TS
@@ -12,5 +13,7 @@
 * Storybook
 * Loki
 * Setup CI on github actions
+* Redux Toolkit
+* JSON-server
 
 work in progress...
