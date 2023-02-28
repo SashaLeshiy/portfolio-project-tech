@@ -12,5 +12,7 @@
   "короткий язык": "Ru",
   "Войти": "Sign in",
   "increment": "Increment",
-  "decrement": "Decrement"
+  "decrement": "Decrement",
+  "Логин": "Login",
+  "Пароль": "Password"
 }
