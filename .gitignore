@@ -3,4 +3,5 @@ node_modules
 .DS_Store
 .vscode
 storybook-static
-.loki
+.loki/report.html
+.loki/report.json
