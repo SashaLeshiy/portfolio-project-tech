@@ -15,5 +15,6 @@
 * Setup CI on github actions
 * Redux Toolkit
 * JSON-server
+* Async Reducers
 
 work in progress...
