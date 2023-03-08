@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Sasha",
+    "lastname": "Leshiy",
+    "age": 48,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Moscow",
+    "username": "admin",
+    "avatar": "https://avatars.githubusercontent.com/u/73581770?v=4"
+  }
 }
