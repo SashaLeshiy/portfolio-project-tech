@@ -42,9 +42,10 @@ server.post('/login', (req, res) => {
 // проверяем, авторизован ли пользователь
 // eslint-disable-next-line
 server.use((req, res, next) => {
-  if (!req.headers.authorization) {
-    return res.status(403).json({ message: 'AUTH ERROR' });
-  }
+  // console.log(req.headers.authorization);
+  // if (!req.headers.authorization) {
+  //   return res.status(403).json({ message: 'AUTH ERROR' });
+  // }
 
   next();
 });
@@ -52,6 +53,6 @@ server.use((req, res, next) => {
 server.use(router);
 
 // запуск сервера
-server.listen(8000, () => {
-  console.log('server is running on 8000 port');
+server.listen(3001, () => {
+  console.log('server is running on 3001 port');
 });

@@ -18,5 +18,9 @@
   "Форма авторизации": "Login form",
   "Неправильный логин или пароль": "Uncorrect login or password",
   "Выйти": "Logout",
-  "Профайл": "Profile Page"
+  "Профайл": "Profile Page",
+  "Страница профиля": "Profile Page",
+  "Редактировать": "Edit",
+  "Ваше имя": "Name",
+  "Ваше фамилия": "Surname"
 }

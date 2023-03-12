@@ -58,6 +58,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'error',
     'import/no-absolute-path': 'off',
     'no-param-reassign': 'off',
+    'no-undef': 'off',
     'i18next/no-literal-string': [
       'error',
       {
@@ -72,6 +73,7 @@ module.exports = {
   },
   globals: {
     __IS_DEV__: true,
+    __API__: true,
   },
   overrides: [
     {
