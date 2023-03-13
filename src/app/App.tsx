@@ -1,5 +1,5 @@
 import { Suspense, useEffect } from 'react';
-import { classNames } from 'shared/lib/classNames/ClassNames';
+import { classNames } from 'shared/lib/classNames/classNames';
 import { NavBar } from 'widgets/nav-bar';
 import { Sidebar } from 'widgets/Sidebar';
 import { userActions } from 'entities/User';

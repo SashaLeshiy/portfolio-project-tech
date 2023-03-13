@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { useSelector } from 'react-redux';
-import { classNames } from 'shared/lib/classNames/ClassNames';
+import { classNames } from 'shared/lib/classNames/classNames';
 import { Text } from 'shared/ui/Text/Text';
 import { Input } from 'shared/ui/Input/Input';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
