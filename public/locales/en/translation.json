@@ -34,5 +34,9 @@
   "Пользователь": "Username",
   "avatar": "Avatar",
   "Укажите валюту": "Select Currency",
-  "Укажите страну": "Country"
+  "Укажите страну": "Country is Incorrect",
+  "Ошибка сервера": "Server Error",
+  "Некорректный возраст": "Age is Incorrect",
+  "Некорректные данные пользователя": "Name or Surname is Incorrect",
+  "Нет данных": "No Users Data"
 }
