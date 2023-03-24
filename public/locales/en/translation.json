@@ -38,5 +38,7 @@
   "Ошибка сервера": "Server Error",
   "Некорректный возраст": "Age is Incorrect",
   "Некорректные данные пользователя": "Name or Surname is Incorrect",
-  "Нет данных": "No Users Data"
+  "Нет данных": "No Users Data",
+  "Список статей": "Articles Page",
+  "Страница статьи": "Article Page"
 }
