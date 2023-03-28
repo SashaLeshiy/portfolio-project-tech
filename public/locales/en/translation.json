@@ -40,5 +40,7 @@
   "Некорректные данные пользователя": "Name or Surname is Incorrect",
   "Нет данных": "No Users Data",
   "Список статей": "Articles Page",
-  "Страница статьи": "Article Page"
+  "Страница статьи": "Article Page",
+  "Статья не найдена": "Article Nor Found",
+  "Ошибка при загрузке статьи": "Error loading article"
 }
